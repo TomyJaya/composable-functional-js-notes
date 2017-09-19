@@ -38,7 +38,7 @@ const Box = x =>
 ({
     map: f => Box(f(x)), // wrap it in a Box again for chaining
     fold: f => f(x), // remove it from the Box
-    inspect: () => `Box($x)` // to facilitate console.log
+    inspect: () => `Box($x)` // to facilitate console.log in NodeJS
 })
 ```
 
