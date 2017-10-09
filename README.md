@@ -6,6 +6,11 @@ Notes on the excellent course by [Brian Lonsdorf](https://twitter.com/drboolean)
 Inspired by: 
 https://github.com/dmitriz/functional-examples
 
+# Other Good JS FP References
+
+* https://github.com/hemanth/functional-programming-jargon
+* https://github.com/MostlyAdequate/mostly-adequate-guide
+
 # Disclaimer
 Credits for the contents go to the original videos' author (Brian Lonsdorf). 
 

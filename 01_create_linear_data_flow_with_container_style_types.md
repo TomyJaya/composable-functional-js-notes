@@ -33,7 +33,7 @@ const nextCharFromNumberString = str => {
 ### Introducing our first Container type: Box
 Formally, let's declare our first container type, `Box`, which has 3 methods: `map`, `fold`, `inspect`.   
 
-```
+```javascript
 const Box = x => 
 ({
     map: f => Box(f(x)), // wrap it in a Box again for chaining
@@ -43,7 +43,8 @@ const Box = x =>
 ```
 
 So, finally, we can write: 
-```
+
+```javascript
 const nextCharFromNumberString = str => {
     Box(str)
     .map(s => s.trim())
