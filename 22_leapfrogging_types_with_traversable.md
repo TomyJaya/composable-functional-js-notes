@@ -36,7 +36,8 @@ const oriRes = files
   .fork(console.error, console.log)
 ```
 
-*Note*:
-1. we needed to use `Task.of` as a type help as JavaScript is not statically typed language
+### Notes:
+
+1. we needed to use `Task.of` as a type help as JavaScript is not a statically typed language
 2. Not all types are traversable
 3. the function you pass into the `traverse` needs to return an applicative functor as it relies on `ap` to work under the hood

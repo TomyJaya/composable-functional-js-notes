@@ -21,7 +21,7 @@ You can keep applying arguments.
 const res = Box(x => y => x + y).ap(Box(2)).ap(Box(3)) // Box(5)
 ```
 
-*NOTE*: the function you pass into the Box should be in curried form!
+*NOTE*: the function you pass into the Box should be in a curried form!
 
 ## Formal Definition of Applicative Functors
 
@@ -34,7 +34,7 @@ where `F` is a Functor, `x` is a value, and `f` is a function.
 
 ## Helper functions for Applicative Functors
 
-`liftA2`: takes vanilla function, and 2 containerized arguments 
+`liftA2`: takes vanilla function, and 2 containerized arguments (`fx` and `fy`)
 
 ```javascript
 const liftA2 = (f,fx,fy) => 
@@ -45,7 +45,7 @@ const add = x => y => x + y
 const res = liftA2(add, Box(2), Box(3)) // Box(5)
 ```
 
-`liftA3` ... `liftAN`: takes vanilla function, and N containerized arguments
+`liftA3` ... `liftAN`: takes vanilla function, and N containerized arguments (`fx`, `fy`, `fz`, `f...N`)
 
 ```javascript
 const liftA3 = (f,fx,fy, fz) => 

@@ -1,6 +1,6 @@
 # Apply multiple functors as arguments to a function (Applicatives)
 
-The below example will run one at a time: 
+The below example will run one at a time (one after the other): 
 
 ```javascript
 const Either = require('../either')

@@ -1,8 +1,8 @@
 # Build a data flow for a real world app
 
-The final working code can be found here: https://github.com/DrBoolean/spotify-fp-example
+The final working code can be found here: [https://github.com/DrBoolean/spotify-fp-example](https://github.com/DrBoolean/spotify-fp-example)
 
-*Spotify API*: https://developer.spotify.com/web-api/
+*Spotify API*: [https://developer.spotify.com/web-api/](https://developer.spotify.com/web-api/)
 
 ## Goal
 Given 2 artirts, we want to suggest another artist by getting the common (intersection of) related artists of those 2. 

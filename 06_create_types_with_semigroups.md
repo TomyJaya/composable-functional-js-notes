@@ -1,6 +1,6 @@
 # Create types with Semigroups
 
-Semigroup is type with `concat` method. e.g. `String`  & `Array`
+Semigroup is a type with `concat` method. e.g. `String`  & `Array`
 
 ```javascript
 const res = 'a'.concat('b').concat('c')

@@ -23,7 +23,8 @@ launchMissiles()
 
 ```
 
-Notes: 
+### Notes: 
+
 1. you should wrap side effects in `Task`
 2. without calling `fork`, side effect won't be invoked
 3. you can defer the `fork`ing to the caller of your function

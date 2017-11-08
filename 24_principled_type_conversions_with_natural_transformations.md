@@ -1,6 +1,6 @@
 # Principled type conversions with Natural Transformations
 
-*Natural Transformation*: Structurally converting functor to another functor (e.g. `Either` to `Task`)
+*Natural Transformation*: Structurally converting a functor to another functor (e.g. `Either` to `Task`)
 
 Example: 
 ```javascript

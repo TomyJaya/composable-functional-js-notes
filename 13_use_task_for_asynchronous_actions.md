@@ -2,9 +2,11 @@
 
 In the below code, readFile and writeFile is async. We need to use `Task` for them. 
 
-There already exist an existing library, such as [futurize](https://github.com/futurize/futurize) which can convert it automatically. 
+However, their asynchronous behavior is supported by using the traditional JavaScript callback. 
 
-Below is the manual way: 
+Fortunately, there already exists an existing library, such as [futurize](https://github.com/futurize/futurize) which can convert callback-based functions automatically to `Task`-based functions. 
+
+Nevertheless, below is how we can do it the manual way: 
 
 ```javascript
 // Before

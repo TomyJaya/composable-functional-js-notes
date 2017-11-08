@@ -1,14 +1,14 @@
 # You've been using Monads
 
 *Monad*: 
+
 1. Container with `of` and `chain` (aka `flatMap`, `bind`, `>>=`)
-2. Allow nest computations
+2. Allow nested computations
 3. "Monads are pointed functors that can flatten"
 4. Monads are also applicative functors
 
 ## `chain` and `join`
 `chain` is `map` and then `join` (flatten). 
-
 
 ```javascript
 httpGet('/user')
@@ -39,7 +39,7 @@ Why we need to know these properties? So that we can mechanically replace one fo
 
 ## Why called Monad?
 Why not uppable joinable? 
-The word comes from years of research on Category Theory. It's better for us to stay close to its root. 
+The word comes from years of research on Category Theory. It's better for us to stay close to its root. We can harness numerous battle-tested mathematical properties from this very structure. 
 
 ## Monads and Their uses
 

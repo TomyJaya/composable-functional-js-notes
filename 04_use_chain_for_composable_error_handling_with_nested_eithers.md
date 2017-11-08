@@ -71,4 +71,10 @@ const getPort = fileName =>
 ### `fold` vs. `chain`
 
 * `fold`: the idea of removing/ extracting the value from container
-*  `chain`: expect a function to run and return the same type
+* `chain`: expect a function to run and return the same type
+
+
+### Side note: 
+
+* `chain` is also known as `flatMap` or `bind` or `>>=` in other functional languages
+* supporting `chain` is one of the characteristics of a Monad which will be discussed in details in Lesson 16. 

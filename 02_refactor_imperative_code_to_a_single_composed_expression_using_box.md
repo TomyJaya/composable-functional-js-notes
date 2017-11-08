@@ -50,6 +50,7 @@ const result = applyDiscount('$5.00','20%')
 console.log(result);
 ```
 
-*Notes*: 
+### Notes:
+
 1. Notice how we can have variables in the inner function via closure.
 2. If we didn't use fold in the last `applyDiscount` function, we'll end up with `Box` within a `Box` (two layers deep). We'll learn how to remove this awkwardness in the next sessions. 

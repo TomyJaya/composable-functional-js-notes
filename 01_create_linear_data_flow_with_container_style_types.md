@@ -56,4 +56,4 @@ const nextCharFromNumberString = str => {
 
 ### Final Notes:
 1. Box is actually the Identity functor
-2. Some poeple argue that this style of programming theoretically creates a performance issue (especially in JS). Nevertheless, there's actually no proven significant impact people experience. The readability and maintainability gain outweighs the slight performance hit. Unless we're writing embedded systems, we shouldn't worry too much about this performance. 
+2. Some poeple argue that this style of programming theoretically creates a performance issue (especially in JS). Nevertheless, there's actually no proven significant impact people experience. The readability and maintainability gain outweighs the slight performance hit. Unless we're writing embedded systems, we shouldn't worry too much about this. 
