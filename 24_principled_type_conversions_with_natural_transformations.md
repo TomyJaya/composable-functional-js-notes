@@ -24,7 +24,7 @@ eitherToTask(Right('nightingale'))
 Using `Left`: 
 
 ```javascript
-eitherToTask(Right('nightingale'))
+eitherToTask(Left('nightingale'))
     .fork(
     e => console.error('Error: ', e),
     res => console.log('Result: ', res)
